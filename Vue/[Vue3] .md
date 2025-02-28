@@ -50,7 +50,7 @@ const clickSpan = () => {
 ```  
   
 Modifier  테스트를 위해 간단한 요소를 만들었다. 각 요소를 클릭했을 시에는 클릭한 태그가 콘솔에 찍히도록 두었다. 화면은 아래와 같을 것 이다.  
-![TIL_IMAGE](../resources/images/4101f145-5361-4e13-8537-44543c20c7d9-image.png)  
+![IMAGE](https://raw.githubusercontent.com/nogi-bot/resources/main/jeygeon/images/0cf760fa-33f7-446e-9da6-9f66928a082b-image.png)  
   
   
   
