@@ -1,7 +1,7 @@
   
   
-## 1️⃣ Slot이란?  
-부모 컴포넌트에서 자식컴포넌트를 사용할 때 컨텐츠를 전달할 수 있는데 이 때 사용하는 것이 <slot> 이다.  
+## 1️⃣ Slot이란?<br>  
+부모 컴포넌트에서 자식컴포넌트를 사용할 때 컨텐츠를 전달할 수 있는데 이 때 사용하는 것이 `<slot>` 이다.  
   
 예를들어  
 ```html  
@@ -25,10 +25,10 @@
 ```  
   
 이런식으로 내부 컨텐츠를 자식 컴포넌트에게 제공할 수 있다.  
-![이미지 출처 : https://v3-docs.vuejs-korea.org/guide/components/slots.html#slot-content-and-outlet](https://raw.githubusercontent.com/nogi-bot/resources/main/jeygeon/images/404f0ce3-90b5-4504-9dce-ae6e6af9a448-image.png)  
+![이미지 출처 : https://v3-docs.vuejs-korea.org/guide/components/slots.html#slot-content-and-outlet](https://raw.githubusercontent.com/nogi-bot/resources/main/jeygeon/images/08c77644-c15b-4652-89db-a31658d0a5b6-image.png)  
   
-## 2️⃣ slot name 지정  
-그리고 <slot>에 name을 적용하여 내가 원하는 slot에 원하는 컨텐츠 전달도 가능하다.  
+## 2️⃣ slot name 지정<br>  
+그리고 `<slot>`에 `name`을 적용하여 내가 원하는 `slot`에 원하는 컨텐츠 전달도 가능하다.  
 ```html  
 <!-- 자식 컴포넌트 : AppCard.vue -->
 
@@ -75,8 +75,8 @@ const slotArgs = ref('content1');
 </div>  
 ```  
   
-## 3️⃣ 자식에서 부모로 데이터 전달  
-자식 컴포넌트에서 정의한 데이터를 부모 컴포넌트로 slot을 이용해서 전달할 수 있다.  
+## 3️⃣ 자식에서 부모로 데이터 전달<br>  
+자식 컴포넌트에서 정의한 데이터를 부모 컴포넌트로 `slot`을 이용해서 전달할 수 있다.  
 ```html  
 <!-- 자식 컴포넌트 : AppCard.vue -->
 
@@ -94,10 +94,10 @@ const slotArgs = ref('content1');
 </AppCard>  
 ```  
   
-자식 컴포넌트에서 전달한 내용3 을 부모 컴포넌트에서 구조 분해 할당을 통해서 전달받아서 표현 할 수 있다.  
+자식 컴포넌트에서 전달한 `내용3` 을 부모 컴포넌트에서 구조 분해 할당을 통해서 전달받아서 표현 할 수 있다.  
   
-## 4️⃣ 렌더링 여부 결정  
-만약 slot이 정의되지 않았다면 아래와 같이 v-if를 통해 렌더링 여부를 결정할 수 도 있다.  
+## 4️⃣ 렌더링 여부 결정<br>  
+만약 `slot`이 정의되지 않았다면 아래와 같이 `v-if`를 통해 렌더링 여부를 결정할 수 도 있다.  
 ```html  
 <!-- 자식 컴포넌트 : AppCard.vue -->
 
@@ -116,7 +116,7 @@ const slotArgs = ref('content1');
 </AppCard>  
 ```  
   
-이렇게 되어있을 경우 content1, content2만 데이터가 상속 받고 content3은 정의되지 않았기 떄문에 렌더링이 되지 않아 최종적으로 아래와 같이 렌더링 된다.  
+이렇게 되어있을 경우 `content1`, `content2`만 데이터가 상속 받고 `content3`은 정의되지 않았기 떄문에 렌더링이 되지 않아 최종적으로 아래와 같이 렌더링 된다.  
 ```html  
 <div>
 	내용1
@@ -125,6 +125,6 @@ const slotArgs = ref('content1');
 ```  
   
 ---  
-## 📌 References  
+## 📌 References<br>  
   
   
