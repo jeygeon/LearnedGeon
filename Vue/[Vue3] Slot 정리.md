@@ -25,7 +25,7 @@
 ```  
   
 이런식으로 내부 컨텐츠를 자식 컴포넌트에게 제공할 수 있다.  
-![이미지 출처 : https://v3-docs.vuejs-korea.org/guide/components/slots.html#slot-content-and-outlet](https://raw.githubusercontent.com/nogi-bot/resources/main/jeygeon/images/ca718e0d-9333-4a46-83fe-b3c6388db12c-image.png)  
+![이미지 출처 : https://v3-docs.vuejs-korea.org/guide/components/slots.html#slot-content-and-outlet](https://raw.githubusercontent.com/nogi-bot/resources/main/jeygeon/images/404f0ce3-90b5-4504-9dce-ae6e6af9a448-image.png)  
   
 ## 2️⃣ slot name 지정  
 그리고 <slot>에 name을 적용하여 내가 원하는 slot에 원하는 컨텐츠 전달도 가능하다.  
