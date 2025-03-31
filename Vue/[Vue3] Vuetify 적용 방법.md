@@ -9,7 +9,7 @@ Vuetify란 구글의 Material Design가이드라인을 기반으로 스타일과
 이 시스템은 UI의 일관성, 직관성, 그리고 미적인 부분에 집중한다.  
 ```  
   
-### 1️⃣ 프로젝트 생성  
+### 1️⃣ 프로젝트 생성<br>  
 (나는 참고로 3.1.10 버전의 vue 프로젝트를 만들었다.)  
 ```bash  
 npm create vue@3.1.10 vue3-vuetify
@@ -17,17 +17,17 @@ cd vue3-vuetify
 npm install  
 ```  
   
-### 2️⃣ Vuetify 설치  
+### 2️⃣ Vuetify 설치<br>  
 프로젝트에서 Vuetify와 관련된 종속성을 설치한다.  
 ```bash  
 npm install vuetify@next @mdi/font  
 ```  
-* vuetify@next → Vuetify 3의 최신 버전을 설치  
-* @mdi/font → Material Design Icons 폰트 패키지이며, 아이콘 사용을 위해 설치  
+* `vuetify@next` → Vuetify 3의 최신 버전을 설치  
+* `@mdi/font` → Material Design Icons 폰트 패키지이며, 아이콘 사용을 위해 설치  
   
-### 3️⃣ Vuetify 설정  
+### 3️⃣ Vuetify 설정<br>  
 1. Vuetify를 프로젝트에서 사용하기 위해 설정 파일을 만들고, 필요한 구성을 추가한다.  
-src 디렉토리 안에 plugins 디렉토리를 만들고, 그 안에 vuetify.js 파일을 생성한다.  
+`src` 디렉토리 안에 `plugins` 디렉토리를 만들고, 그 안에 `vuetify.js` 파일을 생성한다.  
 ```javascript  
 // src/plugins/vuetify.js
 
@@ -64,7 +64,7 @@ import "@mdi/font/css/materialdesignicons.css";
 createApp(App).use(vuetify).mount("#app");  
 ```  
   
-###  4️⃣ 테스트  
+###  4️⃣ 테스트<br>  
 간단한 버튼을 하나 생성해보도록 하겠다.  
 ```html  
 <!-- src/App.vue -->
@@ -80,8 +80,8 @@ createApp(App).use(vuetify).mount("#app");
 </style>
   
 ```  
-![IMAGE](https://raw.githubusercontent.com/nogi-bot/resources/main/jeygeon/images/fc2d47e9-911b-47af-9646-a8a354aa5298-image.png)  
+![IMAGE](https://raw.githubusercontent.com/nogi-bot/resources/main/jeygeon/images/ae19799d-d923-4f8f-9c30-2fa84d380d23-image.png)  
   
 ---  
-### 📌 References  
+### 📌 References<br>  
   
