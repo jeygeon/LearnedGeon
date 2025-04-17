@@ -71,7 +71,7 @@ PUT /my_index
   }
 }  
 ```  
-![IMAGE](https://raw.githubusercontent.com/nogi-bot/resources/main/jeygeon/images/e7e0baeb-1a11-4d9c-9806-772f8d1c7212-image.png)  
+![IMAGE](https://raw.githubusercontent.com/nogi-bot/resources/main/jeygeon/images/4b7e27ab-07f9-4ad8-9737-ff58c4979865-image.png)  
   
 ### ✅ 2단계: 인덱스 정보 확인하기<br>  
 ```json  
@@ -79,14 +79,14 @@ PUT /my_index
 
 GET /_cat/indices?v  
 ```  
-![IMAGE](https://raw.githubusercontent.com/nogi-bot/resources/main/jeygeon/images/0aa1b768-3e66-4f2b-9bdd-694e32af6798-image.png)  
+![IMAGE](https://raw.githubusercontent.com/nogi-bot/resources/main/jeygeon/images/8a6ead83-66c6-4916-92c5-07f515056086-image.png)  
   
 ```json  
 // 샤드 상태 확인
 
 GET /_cat/shards/my_index?v  
 ```  
-![IMAGE](https://raw.githubusercontent.com/nogi-bot/resources/main/jeygeon/images/be47ddde-ab57-4a88-bc63-ea3ae4c5e02a-image.png)  
+![IMAGE](https://raw.githubusercontent.com/nogi-bot/resources/main/jeygeon/images/92eaccfc-a9a8-4ed9-b25d-5df671321bc3-image.png)  
   
 ### ✅ 3단계: 문서 색인<br>  
 ```json  
@@ -96,7 +96,7 @@ POST /my_index/_doc
   "age": 30
 }  
 ```  
-![IMAGE](https://raw.githubusercontent.com/nogi-bot/resources/main/jeygeon/images/a1b81832-23ea-42d9-860f-26665536f93a-image.png)  
+![IMAGE](https://raw.githubusercontent.com/nogi-bot/resources/main/jeygeon/images/14eb28c0-08bc-4162-84a4-33edc6b922ed-image.png)  
   
 이렇게 문서를 색인하게 되면, Elasticsearch가 자동으로 하나의 샤드에 문서를 저장하게 된다. (어떤 샤드에 저장될 지는 내부 알고리즘으로 결정)  
   
