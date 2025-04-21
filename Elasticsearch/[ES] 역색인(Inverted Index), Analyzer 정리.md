@@ -7,18 +7,18 @@ DB에서는 아래와 같이 데이터가 저장되어 있을 때, `Java`를 검
   
 > 이러면 데이터가 늘어날 수록 검색 대상도 늘어나기 때문에 시간이 오래 걸리는 단점이 생기게 된다.  
   
-![IMAGE](https://raw.githubusercontent.com/nogi-bot/resources/main/jeygeon/images/d0511bf5-d47c-4986-879e-1db1949c0745-image.png)  
+![IMAGE](https://raw.githubusercontent.com/nogi-bot/resources/main/jeygeon/images/3846eba5-8cdc-4fd8-9a65-c93dacaae6be-image.png)  
   
 ### 🗝️ 역 인덱스 (Inverted Index)<br>  
 Elasticsearch에서는 저장되는 데이터들을 각 키워드(`Term`) 별로 분류한 뒤 해당 키워드가 있는 문서의 아이디를 저장한다. 이렇게 되면 사용자가 Java를 검색하면 바로 2, 4번 데이터를 가져올 수 있어서 속도가 매우 빠르다.  
   
 그리고 데이터가 추가됐을 때 Term이 가리키는  ID의 배열에 번호만 추가되는 방식이기 때문에 데이터가 추가된다고 해서 속도 변화의 큰 차이가 없다.  
-![IMAGE](https://raw.githubusercontent.com/nogi-bot/resources/main/jeygeon/images/882258b6-5749-4d25-840f-e68a26e5f6cc-image.png)  
+![IMAGE](https://raw.githubusercontent.com/nogi-bot/resources/main/jeygeon/images/990aa5cd-7b33-47ce-80fa-8b5c104986a6-image.png)  
   
 이렇게 데이터를 저장하는 구조를 `역 인덱스(Inverted Index)`라고 한다.  
 ## 🚩 애널라이저 (Analyzer)<br>  
 데이터가 들어오게 되면 **Inverted Index**를 구성하기 위한 `term`을 만들어내는 과정이 있는데 이 과정을 `Text Analysis`라고 하며, 이러한 과정을 처리하는 기능을 **애널라이저** (`Analyzer`)라고 부른다.  
-![IMAGE](https://raw.githubusercontent.com/nogi-bot/resources/main/jeygeon/images/50b9cae9-929c-45b8-9e4b-c96d53a430c2-image.png)  
+![IMAGE](https://raw.githubusercontent.com/nogi-bot/resources/main/jeygeon/images/4bdcd92e-14ee-4563-9df5-0ddd67a4df3d-image.png)  
   
 Analyzer의 구성 요소인 Character Filter, Tokenizer, Token Filter가 각각 하는일은 다른 포스트에 상세히 정리해보도록 하겠다. 각 요소들이 하는 일을 대강 요약하자면 아래와 같다.  
 * `character filter` → 특수 문자 제거  
