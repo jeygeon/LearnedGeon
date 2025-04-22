@@ -4,7 +4,7 @@
 이번 포스트는 `Analyzer`중 가장 먼저 동작하는 기능인 `Character filter`에 대해서 정리해 보려고 한다.  
 ## 🔍 캐릭터 필터란?<br>  
 **캐릭터 필터**(`Character filter`) 란 `Elasticsearch` `Analyzer` 중 첫 번째 기능으로 **텍스트를 문자 수준에서 전처리를 수행**하게 된다.  
-![IMAGE](https://raw.githubusercontent.com/nogi-bot/resources/main/jeygeon/images/6bc0b15e-a769-4636-bb9d-1a0a806c2ed2-image.png)  
+![IMAGE](https://raw.githubusercontent.com/nogi-bot/resources/main/jeygeon/images/eb0628bd-d0b0-4417-8b70-8efdb3d3fdd2-image.png)  
 ## ✏️ 주요 특징<br>  
 1. 텍스트 내에서 특정 문자를 치환하거나 제거한다   
 1. HTML, 특수 문자 등을 제거한다  
